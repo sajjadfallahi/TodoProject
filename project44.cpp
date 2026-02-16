@@ -1,6 +1,6 @@
 //in the name of allah
 //Sajjad Fallahi
-//4031226158
+
 //ostad khorashadi
 #include <iostream>
 #include <vector>//ذخیره لیست کارها
@@ -38,7 +38,6 @@ public:
         isDone = !isDone;
     }
 //Sajjad Fallahi
-//4031226158
     // تابع نمایش اطلاعات کار *****
     virtual void displayInfo() {
         cout << "-----------------------------------" << endl;
@@ -119,7 +118,7 @@ public:
         cout << "Task added" << endl;
     }
 //Sajjad Fallahi
-//4031226158
+
     // 2. نمایش همه Taskها
     void showAll() {
         if (tasks.empty()) { cout << "List  is very!" << endl; return; }//بررسی خالی بودن
@@ -144,7 +143,7 @@ public:
         }
     }
 //Sajjad Fallahi
-//4031226158
+
     // 5. تغییر وضعیت یک کار
     void changeTaskStatus() {
 
@@ -222,7 +221,7 @@ public:
     }
 };
 //Sajjad Fallahi
-//4031226158
+
 
 // --- منوی تعاملی ///******/// */
 int main() {
@@ -258,4 +257,3 @@ int main() {
     return 0;
 }
 //Sajjad Fallahi
-//4031226158
